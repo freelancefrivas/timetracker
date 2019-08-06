@@ -1,0 +1,20 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+// Pretty checkboxes
+@import '~pretty-checkbox/src/pretty-checkbox.scss';
+
+//Bind template styles
+@import './style.css';
+
+//Icons
+@import './font-awesome.min.css';
+@import './simple-line-icons.css';
+
+@import './custom.scss';

@@ -1,0 +1,223 @@
+<template>
+    <div class="horizontal-navbar">
+        <div class="navbar-wrap">
+            <div class="navbar-button">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+
+            <h1 class="page-title">{{title?title:''}}</h1>
+
+            <div class="nav-items">
+                <!--  <div class="nav-item">
+                      <a href="#" class="nav-link" data-toggle="dropdown">
+                          <span class="icon sli-bell"></span>
+                          <span class="marker"></span>
+                      </a>
+
+                      <div class="dropdown-menu">
+                          <h4 class="menu-title">Notifications</h4>
+
+                          <ul>
+                              <li>
+                                  <a href="#">
+                                      <span class="icon sli-puzzle"></span>
+                                      <div class="content">
+                                          <span class="desc">This is a new message for my dear friend <strong>Rob</strong>.</span>
+                                          <span class="date">10 minutes ago</span>
+                                      </div>
+                                  </a>
+                              </li>
+                              <li>
+                                  <a href="#">
+                                      <span class="icon sli-playlist"></span>
+                                      <div class="content">
+                                          <span class="desc">Your site visits have increased <strong>15.5%</strong> more since the last week.</span>
+                                          <span class="date">23 minutes ago</span>
+                                      </div>
+                                  </a>
+                              </li>
+                              <li>
+                                  <a href="#">
+                                      <span class="icon sli-globe"></span>
+                                      <div class="content">
+                                          <span class="desc">Server loaded by 98% please recover soon</span>
+                                          <span class="date">25 minutes ago</span>
+                                      </div>
+                                  </a>
+                              </li>
+                              <li>
+                                  <a href="#">
+                                      <span class="icon sli-feed"></span>
+                                      <div class="content">
+                                          <span class="desc">We're looking to hire two more protypers to our team.</span>
+                                          <span class="date">32 minutes ago</span>
+                                      </div>
+                                  </a>
+                              </li>
+                              <li>
+                                  <a href="#">
+                                      <span class="icon sli-cup"></span>
+                                      <div class="content">
+                                          <span class="desc">This is a new message for my dear friend <strong>Rob</strong>.</span>
+                                          <span class="date">58 minutes ago</span>
+                                      </div>
+                                  </a>
+                              </li>
+                          </ul>
+
+                          <div class="menu-footer">
+                              <a href="#">View all notifications</a>
+                          </div>
+                      </div>
+                  </div>
+  -->
+                <div class="nav-item">
+                    <a href="#" class="nav-link" data-toggle="dropdown">
+                        <span class="icon sli-event"></span>
+                    </a>
+
+                    <div class="dropdown-menu">
+                        <h4 class="menu-title">Events</h4>
+
+                        <ul>
+                            <li>
+                                <a href="#">
+                                    <span class="icon sli-emotsmile"></span>
+                                    <div class="content">
+                                        <span class="desc">This is a new message for my dear friend <strong>Rob</strong>.</span>
+                                        <span class="date">2 minutes ago</span>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <span class="icon sli-layers"></span>
+                                    <div class="content">
+                                        <span class="desc">This is a new message for my dear friend <strong>Rob</strong>.</span>
+                                        <span class="date">14 minutes ago</span>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <span class="icon sli-graduation"></span>
+                                    <div class="content">
+                                        <span class="desc">This is a new message for my dear friend <strong>Rob</strong>.</span>
+                                        <span class="date">15 minutes ago</span>
+                                    </div>
+                                </a>
+                            </li>
+                        </ul>
+
+                        <div class="menu-footer">
+                            <a href="#">View all events</a>
+                        </div>
+                    </div>
+                </div>
+                <!--
+                                <div class="nav-item">
+                                    <a href="#" class="nav-link" data-toggle="dropdown">
+                                        <span class="icon sli-bubbles"></span>
+                                    </a>
+
+                                    <div class="dropdown-menu">
+                                        <h4 class="menu-title">You have 3 new messages</h4>
+
+                                        <ul>
+                                            <li>
+                                                <a href="#">
+                                                    <img alt="" class="avatar" height="42" src="assets/content/avatar-1.jpg" width="42">
+
+                                                    <div class="content">
+                                          <span class="meta">
+                                            <strong class="name">Victor Jara</strong>
+                                            <span class="date">3 Apr</span>
+                                          </span>
+                                                        <span class="desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab, odio.</span>
+                                                    </div>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#">
+                                                    <img alt="" class="avatar" height="42" src="assets/content/avatar-4.jpg" width="42">
+                                                    <div class="content">
+                                          <span class="meta">
+                                            <strong class="name">Nancy Allen</strong>
+                                            <span class="date">2 Apr</span>
+                                          </span>
+                                                        <span class="desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</span>
+                                                    </div>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#">
+                                                    <img alt="" class="avatar" height="42" src="assets/content/avatar-3.jpg" width="42">
+                                                    <div class="content">
+                                          <span class="meta">
+                                            <strong class="name">Emma Watson</strong>
+                                            <span class="date">1 Apr</span>
+                                          </span>
+                                                        <span class="desc">Lorem ipsum dolor sit amet, consectetur adipisicing.</span>
+                                                    </div>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                -->
+                <div class="nav-item">
+                    <a href="#" class="nav-link" data-toggle="dropdown" data-navbar="#addition-navbar"
+                       aria-expanded="false">
+                        <span class="icon sli-settings"></span>
+                    </a>
+                </div>
+
+                <div class="nav-item">
+                    <a href="#" class="nav-link" data-toggle="dropdown">
+                        <span class="icon sli-user"></span>
+                    </a>
+
+                    <div class="dropdown-menu mini-menu">
+                        <ul>
+                            <li>
+                                <a href="#"><span class="icon sli-user"></span> Profile</a>
+                            </li>
+                            <li>
+                                <a href="#!" @click.prevent="logout"><span class="icon sli-logout"></span> Log Out</a>
+
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="items-overlay"></div>
+            </div>
+        </div>
+    </div>
+</template>
+
+<script>
+    export default {
+        name: "Dashboard",
+        methods: {
+            logout() {
+                this.$store.commit('logout');
+                this.$router.push('/login');
+            }
+        },
+        computed: {
+            title() {
+                return this.$store.getters.title;
+            },
+        }
+    }
+</script>
+
+<style scoped>
+
+</style>
