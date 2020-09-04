@@ -27,7 +27,7 @@
     "livereload": "^0.8.0",
     "pretty-checkbox-vue": "^1.1.9",
     "validate.js": "^0.13.1",
-    "vue-moment": "^4.0.0",
+    "vue-moment": "^4.1.0",
     "vue-router": "^3.0.7",
     "vuex": "^3.1.1"
   }
